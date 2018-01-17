@@ -1,0 +1,22 @@
+body,ul,li,p,div,figure,h1,h2.h3{margin:0;padding:0;}
+li{list-style:none;}
+body{ font-family:-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif; font-size:12px;}
+a{text-decoration:none;}
+.clearfix:after{content:'';clear:both;visibility:hidden;}
+.router-link-active{color:#ff4800;}
+
+
+header{ background-color:#219e67;color:#fff;height: 44px; font-size:16px; line-height:44px; text-align:center; position:relative;
+  a{  position:absolute;left:0; width:40px;height: 100%;color:#fff; font-size:16px; cursor:pointer;}
+  .search-icon{ position:absolute; width:50px;height: 44px;right:0; background:url(./assets/search-sm.png) 0 0 no-repeat; background-size:45%; background-position:center center; }
+}
+.index-list{
+  header{
+    a{ display:none;}
+  }
+}
+
+
+
+
+
